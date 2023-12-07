@@ -3,11 +3,16 @@ export type TResource = {
   respawnTime: number
 }
 
+// 1440 = 24 hours
+
 export const RESOURCES_DATA: TResource[] = [
-  { name: 'Salt', respawnTime: 1 },
-  { name: 'Brimstone', respawnTime: 2 },
-  { name: 'dupa', respawnTime: 120 },
-  { name: 'sranie', respawnTime: 7909 },
-  { name: 'omg', respawnTime: 10912 },
-  { name: 'wtf', respawnTime: 20912 },
+  { name: 'Ancient Windthrow', respawnTime: 12960 },
+  { name: 'Clay Pit', respawnTime: 10080 },
+  { name: 'Geyser', respawnTime: 4320 },
+  { name: 'Heart of the Woods', respawnTime: 10080 },
+  { name: 'Jotun Mussel', respawnTime: 20160 },
+  { name: 'Lilypad Lotus', respawnTime: 20160 },
+  { name: 'Rock Crystal', respawnTime: 123123 },
+  { name: 'Fairy Stone', respawnTime: 4320 },
+  { name: 'Salt Basin', respawnTime: 4320 },
 ]
